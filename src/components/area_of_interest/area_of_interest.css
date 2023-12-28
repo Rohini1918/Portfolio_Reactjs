@@ -1,0 +1,86 @@
+#area{
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    max-width: 90rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 auto;
+}
+#heading
+{   margin-top: -2rem;
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: -8rem;
+    margin-bottom: -18rem; 
+}
+#sections
+{   
+    margin-top: -10rem;
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+#section{
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background : rgb(50,50,50);
+    height: 20vh;
+    max-height: 30vh;
+}
+#section_img
+{
+    object-fit: cover;
+    height:100%;
+    width: 7rem;
+}
+#section_content
+{
+    font-weight: 600;
+    max-width: 51rem;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+}
+.frontend_img
+{
+    margin-right: 10rem;
+}
+.comp_p_img
+{
+    margin-right: 5rem;
+}
+.dsa_img
+{
+    margin-right: 5rem;
+}
+#section_content_img
+{   
+    margin-top: 1rem;
+    object-fit: cover;
+    height:30%;
+    width: 2.5rem;
+    margin-right: 2vw;
+    border-radius: 50%;
+}
+#section_content_para
+{
+    margin-top: 0.5rem;
+    font-weight: 100;
+}
+#back_link_area
+{
+    margin-left: -80rem;
+    margin-top: -10rem;
+}
+#next_link_area
+{
+    margin-right: -80rem;
+    margin-top: -2rem;
+}

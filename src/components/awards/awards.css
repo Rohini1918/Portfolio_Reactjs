@@ -1,0 +1,54 @@
+#awards{
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    max-width: 90rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 auto;
+}
+#awards_heading
+{
+    font-size: 2vw;
+    margin-bottom: 1rem;
+}
+#awards_section
+{   
+    height: 80vw;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+    margin-left: 10rem;
+}
+#award{
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background : rgb(50,50,50);
+    height: 10vh;
+    max-height: 30vh;
+    width: 60rem;
+}
+#award_img
+{
+    object-fit: cover;
+    height:100%;
+    height: 4rem;
+    width: 4rem;
+    margin-top: -1.2rem;
+    margin-right: 2rem;
+    border-radius: 2rem;
+    position: relative;
+}
+#award_content
+{
+    font-weight: 600;
+    max-width: 51rem;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+}
